@@ -1,0 +1,118 @@
+* {
+    color: white;
+}
+
+p, h1, li, h2 {
+    color: black;
+}
+
+#bold {
+    font-weight: bold;
+    color: black
+}
+
+#header_div {
+    min-height: 70px;
+    background-color: white;
+}
+
+.img_header {
+    margin-left: 60px;
+}
+
+#large_div {
+    align-items: left;
+    position: relative;
+    width: 100%;
+}
+
+.img_nav {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+#casa_do_bomba {
+    background-color: #FFF;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    width: 120px;
+    text-align: left;
+    border: 2px solid black;
+    position: relative;
+    z-index: 2;
+    bottom: 300px;
+    left: 80px;
+}
+
+#main_left {
+    float: left;
+    width: 80%;
+}
+
+.img_lateral {
+    float: right;
+    width:40%;
+    left: 100px;
+    position: relative;
+}
+
+#footer_divider {
+    clear: both;
+    margin-top: 35px;
+}
+
+#main_p, #main_title {
+    font-size: 24px;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding-left: 160px;
+}
+
+#main_text {
+    border-left: 3px solid black;
+    border-bottom:3px solid black;
+    height: 400px;
+}
+
+#main {
+    overflow:hidden;
+}
+
+#footer_right {
+    float: right;
+    width: 50%;
+    padding-left: 60px;
+    text-align: left;
+}
+
+#footer_divider {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background: #FFF;
+}
+
+#footer_left {
+    width: 50%;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img_footer {
+    display: block;
+}
+
+#footer_left ul {
+    list-style: none;
+}
+
+#footer_left li {
+    font-size: 16px;
+    display: flex;
+    justify-content: column;
+    padding-bottom: 18px;
+}
